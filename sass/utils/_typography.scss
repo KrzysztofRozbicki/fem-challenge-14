@@ -21,6 +21,7 @@
 .header-900 {
   @include text(var(--fs-900), var(--text-primary-100), 700, 1.17);
   letter-spacing: -0.4px;
+  margin-bottom: 0.25rem;
 }
 
 .text-400 {
