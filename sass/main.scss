@@ -1,0 +1,8 @@
+@use '../sass/utils' as *;
+@use '../sass/components' as *;
+
+body {
+  font-family: var(--ff-primary);
+  position: relative;
+  text-align: center;
+}

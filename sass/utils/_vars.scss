@@ -1,0 +1,29 @@
+:root {
+  --ff-primary: 'Open Sans', sans-serif;
+  --ff-secondary: 'Poppins', sans-serif;
+
+  --fs-300: 0.5rem;
+  --fs-400: 0.75rem; //12px
+  --fs-500: 1rem; //16px
+  --fs-700: 1.5rem; //24px
+
+  --text-primary-100: #ffffff;
+
+  --bg-primary-500: hsl(257, 40%, 49%);
+
+  --button-primary-100: var(--text-primary-100);
+  --button-accent-500: hsl(300, 69%, 71%);
+
+  --box-shadow-500: 1px 3px 5px rgba(0, 0, 0, 0.269022);
+  --box-shadow-600: 2px 4px 9px 3px rgba(0, 0, 0, 0.258633);
+}
+
+$desktop-size: 64em;
+
+@media (min-width: $desktop-size) {
+  :root {
+    --fs-400: 1.125rem; //18px
+    --fs-500: 1.125rem; //18px
+    --fs-700: 2.5rem; //40px
+  }
+}
