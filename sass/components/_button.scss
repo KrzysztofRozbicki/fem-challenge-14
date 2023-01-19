@@ -1,0 +1,18 @@
+@use '../utils' as *;
+
+.button {
+  @include text(var(--fs-500), var(--text-primary-100), 400, 1.17);
+  letter-spacing: -0.2px;
+  background-color: var(--button-primary-500);
+  border-radius: 5px;
+  padding-block: 0.9375rem;
+  box-shadow: var(--box-shadow-500);
+  width: 100%;
+  border: none;
+  margin-top: 1.675rem;
+  &:focus,
+  &:hover {
+    cursor: pointer;
+    box-shadow: var(--box-shadow-550);
+  }
+}
